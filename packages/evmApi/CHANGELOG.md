@@ -1,5 +1,20 @@
 # @moralisweb3/evm-api
 
+## 2.0.0-alpha.2
+
+### Major Changes
+
+- [#482](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/482) [`820caa1`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/820caa1643dbcba5e1a6689bc19a28d10fbcc908) Thanks [@sogunshola](https://github.com/sogunshola)! - Perfromance improvement: Return object rather than undefined
+
+### Patch Changes
+
+- [#469](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/469) [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316) Thanks [@b4rtaz](https://github.com/b4rtaz)! - CommonJS/UMD/ESM builds.
+
+* [#481](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/481) [`fb59ac9`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/fb59ac9c29a13f95cdc91673385f79b8c1139fcb) Thanks [@ErnoW](https://github.com/ErnoW)! - Fix getPairAddress endpoint url
+
+* Updated dependencies [[`d4a752e`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d4a752ef1b9b279a6500d9618093912093eca08b), [`396cb54`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/396cb54e4e1cbad58e9c4d16b57c2abd678f7287), [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316), [`d525351`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d525351da98b8b1dec6a7559c953c5b921d7b913), [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316), [`55f54e1`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/55f54e191d719db3813182a1aa5db4d1ec7cfc62), [`ba6fd72`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/ba6fd72e891a14aa7635e6dfe34addb039d8a4b1)]:
+  - @moralisweb3/core@2.0.0-alpha.2
+
 ## 2.0.0-alpha.1
 
 ### Major Changes

@@ -1,5 +1,20 @@
 # @moralisweb3/evm-wallet-connect-connector
 
+## 2.0.0-alpha.2
+
+### Patch Changes
+
+- [#464](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/464) [`d4a752e`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d4a752ef1b9b279a6500d9618093912093eca08b) Thanks [@sogunshola](https://github.com/sogunshola)! - Allow to cancel an Evm connect request
+
+* [#469](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/469) [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316) Thanks [@b4rtaz](https://github.com/b4rtaz)! - CommonJS/UMD/ESM builds.
+
+- [#471](https://github.com/MoralisWeb3/Moralis-JS-SDK/pull/471) [`ed400c9`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/ed400c9c99746ed346462565e558b6761ea6d4ba) Thanks [@b4rtaz](https://github.com/b4rtaz)! - Refactored the base class of all connectors.
+
+- Updated dependencies [[`d4a752e`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d4a752ef1b9b279a6500d9618093912093eca08b), [`396cb54`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/396cb54e4e1cbad58e9c4d16b57c2abd678f7287), [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316), [`d525351`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d525351da98b8b1dec6a7559c953c5b921d7b913), [`9e67989`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/9e67989c33f965bccb5dede53785a55fb1933316), [`55f54e1`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/55f54e191d719db3813182a1aa5db4d1ec7cfc62), [`ba6fd72`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/ba6fd72e891a14aa7635e6dfe34addb039d8a4b1), [`ed400c9`](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/ed400c9c99746ed346462565e558b6761ea6d4ba)]:
+  - @moralisweb3/core@2.0.0-alpha.2
+  - @moralisweb3/evm-connector-utils@2.0.0-alpha.2
+  - @moralisweb3/wallet-connect-wrapper@2.0.0-alpha.2
+
 ## 2.0.0-alpha.1
 
 ### Major Changes
