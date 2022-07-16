@@ -333,6 +333,7 @@ export namespace Moralis {
   }
 
   type Web3ProviderType =
+    | 'network'
     | 'metamask'
     | 'walletconnect'
     | 'walletConnect'
