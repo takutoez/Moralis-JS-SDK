@@ -1,3 +1,47 @@
+# [1.11.0](https://github.com/MoralisWeb3/Moralis-JS-SDK/compare/v1.10.1...v1.11.0) (2022-08-03)
+
+
+### Bug Fixes
+
+* casing for tracking keys ([e97e9b3](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/e97e9b3f545e2857be692182a22a000d88faba9e))
+
+
+### Features
+
+* add cronos testnet chainid ([1af9726](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/1af97262ac6219fc6cba01352f963df183d6dfe9))
+* **api:** sending sending headers to apis to track activity ([0b60aac](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/0b60aacd9f074d500c7f470b02a5844e2a52181d))
+
+## [1.10.1](https://github.com/MoralisWeb3/Moralis-JS-SDK/compare/v1.10.0...v1.10.1) (2022-07-27)
+
+
+### Bug Fixes
+
+* Add missing ipfs() and hash() methods to Moralis.File type ([#346](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/346)) ([83ad897](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/83ad89709c9962e4376e448b2975c82dc94d0dc8)), closes [#345](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/345)
+
+# [1.10.0](https://github.com/MoralisWeb3/Moralis-JS-SDK/compare/v1.9.1...v1.10.0) (2022-07-25)
+
+
+### Bug Fixes
+
+* correct data param for api requests ([#532](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/532)) ([581232b](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/581232b7eb72af108a3e9d32fd0321844310f207))
+* resetting chainId typo ([#529](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/529)) ([c8b14b0](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/c8b14b029f5c6eccca28ece07f4e769db93f9966))
+* types ([#530](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/530)) ([140858a](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/140858aff9c8a5d7d1b8f2e222a30a64b611866a))
+* typos in chains ([#526](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/526)) ([ca6cd58](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/ca6cd58b301ce67a29ec4511d7db85840eb627d5))
+* update package lock ([#531](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/531)) ([205e628](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/205e6284a1f1f28d2235b7d6c16a246249fce87a))
+
+
+### Features
+
+* allow optional properties for magic connect ([#528](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/528)) ([bfe8d3d](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/bfe8d3d22ff5ffb27a3b497afd47664240d95df1))
+* allow to skip sdk version-check request ([#527](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/527)) ([f446af3](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/f446af3e7c570e95ad1aff4c6a07836e3c6ff6f8))
+
+## [1.9.1](https://github.com/MoralisWeb3/Moralis-JS-SDK/compare/v1.9.0...v1.9.1) (2022-07-21)
+
+
+### Bug Fixes
+
+* remove page check when using cursor pagination ([#502](https://github.com/MoralisWeb3/Moralis-JS-SDK/issues/502)) ([d062682](https://github.com/MoralisWeb3/Moralis-JS-SDK/commit/d0626828f339ffa4dcc9bae6ae2f5fe376c9e20c))
+
 # [1.9.0](https://github.com/MoralisWeb3/Moralis-JS-SDK/compare/v1.8.1...v1.9.0) (2022-07-13)
 
 

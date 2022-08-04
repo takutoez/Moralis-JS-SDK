@@ -36,7 +36,15 @@ class Moralis extends MoralisWeb3 {
    * @static
    */
   static async start(options) {
-    const { appId, serverUrl, plugins, javascriptKey, masterKey, moralisSecret } = options;
+    const {
+      appId,
+      serverUrl,
+      plugins,
+      javascriptKey,
+      masterKey,
+      moralisSecret,
+      disableVersionCheck,
+    } = options;
     let apiKey;
     let trackOptions;
 
@@ -65,9 +73,14 @@ class Moralis extends MoralisWeb3 {
 
     this.initialize(appId, javascriptKey, masterKey);
     this.serverURL = serverUrl;
+    const apiHeaders = {
+      'x-moralis-platform': 'JS SDK',
+      'x-moralis-platform-version': process.env.NEXT_VERSION,
+      'x-moralis-build-target': process.env.PARSE_BUILD,
+    };
 
-    this.Web3API.initialize({ serverUrl, apiKey, Moralis });
-    this.SolanaAPI.initialize({ serverUrl, apiKey, Moralis });
+    this.Web3API.initialize({ serverUrl, apiKey, Moralis, headers: apiHeaders });
+    this.SolanaAPI.initialize({ serverUrl, apiKey, Moralis, headers: apiHeaders });
     if (appId && serverUrl) {
       trackOptions = {
         subdomain: getSubdomain(serverUrl),
